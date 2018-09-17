@@ -6,3 +6,6 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
+
+// TODO:
+//     1. Fix Box-Shadow small devices

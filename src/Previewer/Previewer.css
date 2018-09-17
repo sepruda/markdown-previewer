@@ -1,0 +1,53 @@
+.Previewer {
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    width: 820px;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 7px 0px rgba(112,111,112,1);
+}
+
+.Previewer label {
+    position: relative; 
+    border: 1px solid black;
+    border-bottom: 0;
+    margin: 0 auto;
+    padding: 7px;
+    width: 820px;
+    min-width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #711bb1;
+    font-weight: 700;
+}
+
+.Previewer button {
+    cursor: pointer;
+}
+
+.PreviewerWindow {
+    resize: vertical;
+    width: 820px;
+    min-width: 70%;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-color: #d1bae2;
+}
+
+@media (max-width: 821px) {
+    .Previewer {
+        width: 780px;
+        max-width: 90%;
+    }
+    .PreviewerWindow {
+        width: 780px;
+        max-width: 90%;
+    }
+    .Previewer label {
+        width: 780px;
+        max-width: 90%;
+    }
+}

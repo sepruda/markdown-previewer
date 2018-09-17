@@ -1,0 +1,49 @@
+.Editor {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    box-shadow: 7px 7px 7px 0px rgba(112,111,112,1);
+
+}
+
+.Editor label {
+    position: relative; 
+    border: 1px solid black;
+    border-bottom: 0;
+    margin: 0 auto;
+    padding: 7px;
+    width: 600px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    background-color: #711bb1;
+}
+
+.Editor button {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.EditorWindow {
+    resize: vertical;
+    width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 10px;
+    background-color: #d1bae2;
+}
+
+@media (max-width: 821px) {
+    .Editor {
+        max-width: 75%;
+    }
+    .EditorWindow {
+        max-width: 75%;
+    }
+    .Editor label {
+        max-width: 75%;
+    }
+}
