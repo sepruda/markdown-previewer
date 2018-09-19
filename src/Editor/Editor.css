@@ -1,49 +1,42 @@
 .Editor {
     margin: 10px auto;
-    display: flex;
-    flex-direction: column;
     width: 600px;
-    box-shadow: 7px 7px 7px 0px rgba(112,111,112,1);
-
+    box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.3);
 }
 
 .Editor label {
-    position: relative; 
+    /* position: relative;  */
     border: 1px solid black;
     border-bottom: 0;
     margin: 0 auto;
     padding: 7px;
-    width: 600px;
     box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
     font-weight: 700;
     background-color: #711bb1;
+    display: block;
+    text-transform: uppercase;
 }
 
 .Editor button {
     cursor: pointer;
     border: 1px solid black;
+    float: right;
+    border-radius: 5px;
 }
 
 .EditorWindow {
     resize: vertical;
-    width: 600px;
+    width: 100%;
     border: 1px solid black;
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
     padding: 0 10px;
     background-color: #d1bae2;
+    display: block;
 }
 
 @media (max-width: 821px) {
     .Editor {
-        max-width: 75%;
-    }
-    .EditorWindow {
-        max-width: 75%;
-    }
-    .Editor label {
         max-width: 75%;
     }
 }
